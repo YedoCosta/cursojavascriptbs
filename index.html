@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,111 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <style>
+        .col-4 {
+            color: rgb(89, 0, 255);
+
+        }
+
+
+    </style>
 </head>
+
 <body>
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert with <a href="img/caneca.png" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+    <!-- =============================================== -->
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, 
+              until the collapse plugin adds the appropriate classes that we use to style each element. 
+              These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
+              You can modify any of this with custom CSS or overriding our default variables. 
+              It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, 
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #4
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="container">
+                    <h1>Cusrso de JavaScritp com Bootstrap</h1>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>
+                                JavaScript é a linguagem de programação mais popular do mundo.
+                                JavaScript é a linguagem de programação da Web.
+                                JavaScript é fácil de aprender.
+                                Este tutorial ensinará JavaScript do básico ao avançado.
+                            </p>
+                        </div>
+                        <div class="col-4">
+                            <p>
+                                Por que estudar JavaScript?
+                                JavaScript é uma das 3 linguagens que todos os desenvolvedores web devem aprender:
+                                1. HTML para definir o conteúdo das páginas da web
+                                2. CSS para especificar o layout das páginas da web
+                                3. JavaScript para programar o comportamento das páginas da web
+                            </p>
+                        </div>
+                        <div class="col-4">
+                            <p>
+                                Este curso abrange todas as versões do JavaScript:
+                                O JavaScript Original ES1 ES2 ES3 (1997-1999)
+                                A Primeira Revisão Principal ES5 (2009)
+                                A Segunda Revisão ES6 (2015)
+                                As adições anuais (2016, 2017, 2018)
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="link-primary">Próximo</a>
+                          
+                        </div>
+                    </div>
+                </div>
+             </div>
+            </div>
+          </div>
+      </div>
+    <!-- =============================================== -->
     <div class="container">
         <h1>Cusrso de JavaScritp com Bootstrap</h1>
         <div class="row">
@@ -43,8 +147,10 @@
             </div>
             <div class="col-12">
                 <a href="#" class="link-primary">Próximo</a>
+              
             </div>
         </div>
     </div>
 </body>
+
 </html>
